@@ -1,0 +1,8 @@
+### [DECIDED] 핵심 프레임워크 및 언어
+### [DECIDED] 라이선스 및 권리 표준
+**[OPEN] 비디오 호스팅 최종 선택**: 초기 개발 편의성과 비용 효율성을 고려하여 Mux와 Cloudflare Stream 중 최종 결정이 필요하다.
+## 5. 미결정 사항 [OPEN]
+- **[OPEN] 인증 및 사용자 시스템**: 자체 인증(NextAuth.js 등) vs 외부 솔루션(Clerk, Auth0) 중 보안과 비용을 고려한 선택 필요.
+- **[OPEN] 데이터베이스 설계**: 관계형(PostgreSQL) vs 문서형(MongoDB) 등 메타데이터 구조에 따른 최종 설계 (→ feature-specs 단계에서 결정).
+- **[OPEN] 초기 콘텐츠 확보 전략**: 영화학교 졸업작 아카이브 확보 또는 직접 섭외 우선순위 결정.
+- **[OPEN] 디자인 및 UI 방향**: Steam의 'Store-Library-Community' 구조를 웹 환경에 어떻게 이식할지에 대한 구체적 가이드라인.
