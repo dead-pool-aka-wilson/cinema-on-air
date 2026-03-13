@@ -162,7 +162,7 @@ source: .sisyphus/drafts/cinema-on-air-research.md §16, §18, §22 + 대화 기
 ---
 
 ## 이 문서에 포함되지 않는 내용
-- 개별 기능의 상세 기술 명세 (→ see docs/03-functional-requirements.md)
-- 상세 UI 디자인 가이드 (→ see docs/06-design-system.md)
+- 개별 기능의 상세 기술 명세 (→ docs/feature-specs/ 디렉토리 참조)
+- 상세 UI 디자인 가이드 (향후 작성 예정)
 - 마케팅 및 홍보 세부 계획
 - 법적 계약서 전문
