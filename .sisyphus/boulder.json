@@ -1,9 +1,12 @@
 {
-  "active_plan": "/Users/deok/Dev/cinema-on-air/.sisyphus/plans/docs-foundation.md",
-  "started_at": "2026-03-13T11:17:04.219Z",
+  "active_plan": "/Users/deok/Dev/cinema-on-air/.sisyphus/plans/validation.md",
+  "started_at": "2026-03-13T11:35:00.000Z",
   "session_ids": [
     "ses_31946f544ffeQUUrAWWMaP4ADY"
   ],
-  "plan_name": "docs-foundation",
-  "agent": "atlas"
+  "plan_name": "validation",
+  "agent": "atlas",
+  "worktree_path": "/Users/deok/Dev/cinema-on-air",
+  "branch": "3-feat-execute-hypothesis-validation-plan-h1-h6",
+  "issue": 3
 }
