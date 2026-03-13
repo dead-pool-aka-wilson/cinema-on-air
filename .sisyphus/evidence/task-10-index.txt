@@ -1,0 +1,10 @@
+     101 docs/00-index.md
+docs/00-index.md
+docs/01-product-definition.md
+docs/02-market-research.md
+docs/03-steam-benchmarking.md
+docs/04-creator-insights.md
+docs/05-audience-insights.md
+docs/06-validation-plan.md
+docs/07-technical-preliminary.md
+docs/08-decision-log.md
