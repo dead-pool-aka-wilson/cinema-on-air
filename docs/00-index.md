@@ -1,6 +1,6 @@
 ---
 status: draft
-last_updated: 2026-03-13
+last_updated: 2026-03-14
 source: 전체 docs/ 문서 종합
 ---
 
@@ -24,6 +24,7 @@ source: 전체 docs/ 문서 종합
 | [06-validation-plan.md](./06-validation-plan.md) | 가설 검증 계획 | 개발 전 검증 가능한 핵심 가설 목록 및 테스트 방법론 | draft |
 | [07-technical-preliminary.md](./07-technical-preliminary.md) | 기술 예비 조사 | 기술 스택 선택 근거, 비디오 호스팅 옵션, 인프라 비용 추정 | draft |
 | [08-decision-log.md](./08-decision-log.md) | 결정 기록부 (ADR) | 모든 아키텍처·비즈니스 결정을 ADR 형식으로 기록 | draft |
+| [infrastructure/00-index.md](./infrastructure/00-index.md) | 인프라 마스터 인덱스 | Pro Mode 생태계 구성 7개 카테고리(장비, 장소, 인력, 후반, 교육, 자금, 법적) 종합 | draft |
 
 ---
 
@@ -40,15 +41,22 @@ source: 전체 docs/ 문서 종합
 | 05-audience-insights.md | 2 | 0 | 0 |
 | 06-validation-plan.md | 6 | 0 | 0 |
 | 07-technical-preliminary.md | 8 | 0 | 0 |
-| 08-decision-log.md | 12 | 5 | 0 |
-| **합계** | **44** | **5** | **0** |
+| 08-decision-log.md | 13 | 5 | 0 |
+| infrastructure/01-equipment-rental.md | 0 | 0 | 0 |
+| infrastructure/02-filming-locations.md | 0 | 0 | 0 |
+| infrastructure/03-crew-casting.md | 0 | 0 | 0 |
+| infrastructure/04-post-production.md | 0 | 0 | 0 |
+| infrastructure/05-education-workshop.md | 0 | 0 | 0 |
+| infrastructure/06-funding.md | 0 | 0 | 0 |
+| infrastructure/07-legal-admin.md | 0 | 0 | 0 |
+| **합계** | **45** | **5** | **0** |
 
 ### 핵심 결정 사항 Top 5
 
 1. **[DECIDED] 타겟 시장**: 한국 우선 → 글로벌 확장 (→ see docs/08-decision-log.md ADR-001)
 2. **[DECIDED] 벤치마크 모델**: Steam 양면 플랫폼 — 크리에이터 도구 + 소비자 발견 메커니즘 통합 (→ see docs/03-steam-benchmarking.md)
 3. **[DECIDED] 핵심 메커니즘**: 관객 지표(조회수·완주율·리뷰) 기반 배급사 감독 발굴 구조 (→ see docs/04-creator-insights.md)
-4. **[DECIDED] 플랫폼 범위**: "만든 후의 플랫폼" — 배급/발견에 집중, 제작 도구(캐스팅·장소 DB) 제외 (→ see docs/08-decision-log.md ADR-009)
+4. **[DECIDED] 플랫폼 아키텍처**: Pro Mode(감독/크리에이터) + Enjoy Mode(관객) Two-sided App, 제작 인프라(장비·장소·인력·후반·교육·자금·법적) 연계 (→ see docs/08-decision-log.md ADR-013)
 5. **[DECIDED] 기술 스택**: Next.js + TypeScript, 웹 우선(PC/모바일 웹) (→ see docs/07-technical-preliminary.md)
 
 ### 주요 미결 사항 (OPEN)
@@ -81,17 +89,22 @@ source: 전체 docs/ 문서 종합
 이 문서 세트 완성 후 진행할 작업:
 
 1. **가설 검증 테스트 실행** (docs/06-validation-plan.md 기반)
-   - 랜딩 페이지 제작 (개발 없이 Notion/Framer 활용)
-   - 커뮤니티 설문 배포
-   - 배급사 인터뷰 섭외
+    - 랜딩 페이지 제작 (개발 없이 Notion/Framer 활용)
+    - 커뮤니티 설문 배포
+    - 배급사 인터뷰 섭외
 
-2. **기술 스택 최종 확정** (docs/07-technical-preliminary.md 기반)
-   - 비디오 호스팅 서비스 선택 (Mux vs Cloudflare Stream)
-   - 인증 시스템 설계
+2. **Pro Mode 인프라 연계 전략 수립** (docs/infrastructure/00-index.md 기반)
+    - 7개 카테고리별 제휴 협약 대상 선정 (렌탈 업체, 스튜디오, 교육 기관 등)
+    - Pro Mode 내 "리소스 가이드" 섹션 설계
+    - 제작자 전환 경로(관객 → 제작자) 프로토타입 설계
 
-3. **MVP 개발 착수**
-   - 기능 명세서 작성 (docs/feature-specs/ 디렉토리 활용)
-   - 데이터베이스 스키마 설계
+3. **기술 스택 최종 확정** (docs/07-technical-preliminary.md 기반)
+    - 비디오 호스팅 서비스 선택 (Mux vs Cloudflare Stream)
+    - 인증 시스템 설계
+
+4. **MVP 개발 착수**
+    - 기능 명세서 작성 (docs/feature-specs/ 디렉토리 활용)
+    - 데이터베이스 스키마 설계 (Pro Mode/Enjoy Mode 분리 고려)
 
 ---
 
