@@ -1,13 +1,13 @@
 ---
 status: draft
-last_updated: 2026-03-13
+last_updated: 2026-03-14
 source: .sisyphus/drafts/cinema-on-air-research.md §8, §16, §18, §19, §22
 ---
 
 # Cinema On Air: 제품 정의서 (Product Definition)
 
 ## 1. 한 줄 정의
-**"단편영화 감독이 직접 업로드하고, 관객이 발견하며, 배급사가 데이터로 감독을 발굴하는 양면 플랫폼"**
+**"단편영화 감독이 직접 업로드하고 제작 인프라를 연결하는 **Pro Mode**와, 관객이 발견하며 배급사가 데이터로 감독을 발굴하는 **Enjoy Mode**로 구성된 양면 플랫폼"**
 
 ## 2. 문제 정의 (Problem Definition)
 
@@ -71,8 +71,9 @@ Cinema On Air는 기존의 수직적 배급 구조를 수평적 발견 구조로
 
 ## 8. 스코프 경계 (Scope Boundaries)
 
-- **IN (포함)**: 스트리밍, 아카이빙, 감독 프로필, 관객 지표, 발견 메커니즘, 소셜 리뷰.
-- **OUT (제외)**: 캐스팅 매칭, 촬영 장소 DB, 장비 공유/렌탈, 크라우드 펀딩, 제작 도구.
+- **IN (포함)**: 스트리밍, 아카이빙, 감독 프로필, 관객 지표, 발견 메커니즘, 소셜 리뷰 (Enjoy Mode), 인프라 정보 가이드(장비 렌탈, 촬영 장소, 인력/캐스팅, 후반작업, 교육, 자금, 법적/행정) (Pro Mode).
+- **OUT (제외)**: 장비 거래 마켓플레이스 직접 운영, 크라우드펀딩 플랫폼 직접 운영, 캐스팅 매칭 AI 알고리즘 개발.
+- **참고**: 인프라 정보 "연결"은 IN이나, 인프라 서비스 "직접 운영"은 OUT.
 
 ## 9. 성공 지표 (Success Metrics)
 
@@ -99,6 +100,7 @@ Cinema On Air는 기존의 수직적 배급 구조를 수평적 발견 구조로
 - `[DECIDED]` **기술 스택**: Next.js와 TypeScript를 기반으로 개발합니다.
 - `[DECIDED]` **플랫폼 형태**: PC 및 모바일 웹을 우선적으로 지원합니다.
 - `[DECIDED]` **벤치마크**: Steam의 양면 플랫폼 모델을 핵심 비즈니스 구조로 채택합니다.
+- `[DECIDED]` **플랫폼 아키텍처**: Pro Mode(크리에이터)와 Enjoy Mode(관객)의 Two-sided App으로 구성하며, 제작 인프라(장비, 장소, 인력, 후반, 교육, 자금, 법적/행정)를 Pro Mode에 연계한다. (→ see docs/08-decision-log.md ADR-013)
 - `[OPEN]` **수익 모델**: MVP 단계에서는 무료로 시작하며, 추후 광고(AVOD) 또는 구독(SVOD) 여부를 결정합니다.
 - `[OPEN]` **비디오 호스팅**: Mux와 Cloudflare Stream 중 비용 및 성능을 고려하여 최종 선택합니다.
 - `[HYPOTHESIS]` **발견 큐(Discovery Queue)**: 매일 개인화된 단편영화 추천이 관객의 체류 시간을 유의미하게 늘릴 것입니다.
