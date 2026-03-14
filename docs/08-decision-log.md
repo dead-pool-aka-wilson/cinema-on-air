@@ -1,6 +1,6 @@
 ---
 status: draft
-last_updated: 2026-03-13
+last_updated: 2026-03-14
 source: .sisyphus/drafts/cinema-on-air-research.md §16, §18, §22 + 대화 기반
 ---
 
@@ -9,7 +9,7 @@ source: .sisyphus/drafts/cinema-on-air-research.md §16, §18, §22 + 대화 기
 이 문서는 Cinema on Air 프로젝트의 주요 아키텍처 및 비즈니스 결정을 기록합니다. 각 결정은 ADR(Architecture Decision Record) 형식을 따릅니다.
 
 ## 결정 요약
-- **DECIDED**: 12개
+- **DECIDED**: 13개
 - **OPEN**: 5개
 
 ---
@@ -87,13 +87,14 @@ source: .sisyphus/drafts/cinema-on-air-research.md §16, §18, §22 + 대화 기
 - **관련 문서**: [→ see docs/01-product-definition.md]
 
 ### ADR-009: 플랫폼 서비스 범위(Scope)
-- **상태**: [DECIDED]
+- **상태**: [SUPERSEDED]
 - **결정**: "만든 후의 플랫폼"(배급/발견)에 집중하며, 제작 도구는 제외한다.
 - **컨텍스트**: 플랫폼의 정체성을 명확히 하고 리소스를 집중해야 한다.
 - **대안**: 캐스팅, 장소 DB 등 제작 지원 기능 포함.
 - **근거**: 현재 시장의 가장 큰 페인 포인트는 "만든 후 보여줄 곳이 없다"는 점임.
 - **소스**: .sisyphus/drafts/cinema-on-air-research.md §22
 - **관련 문서**: [→ see docs/01-product-definition.md]
+- **폐기 사유**: Pro Mode/Enjoy Mode Two-sided App 전환으로 제작 인프라를 플랫폼 범위에 포함. ADR-013으로 대체.
 
 ### ADR-010: 핵심 비즈니스 메커니즘
 - **상태**: [DECIDED]
@@ -121,6 +122,15 @@ source: .sisyphus/drafts/cinema-on-air-research.md §16, §18, §22 + 대화 기
 - **근거**: Steam, Apple App Store 등 글로벌 플랫폼의 표준이자 크리에이터 친화적 정책.
 - **소스**: .sisyphus/drafts/cinema-on-air-research.md §12, §15
 - **관련 문서**: [→ see docs/01-product-definition.md]
+
+### ADR-013: 플랫폼 아키텍처 — Two-sided App (Pro Mode / Enjoy Mode)
+- **상태**: [DECIDED]
+- **결정**: Cinema on Air를 "Pro Mode(감독/크리에이터)"와 "Enjoy Mode(관객)"의 Two-sided App으로 구성하며, 제작 인프라(장비, 장소, 인력, 후반작업, 교육, 자금, 법적/행정)를 플랫폼 생태계에 직접 연계한다.
+- **컨텍스트**: 영화를 본 관객이 제작자가 될 확률이 높으며, 촬영 장소/장비/인력/배급 정보를 연계하여 관객→제작자 전환을 유도하는 순환 생태계가 필요하다. 기존 ADR-009는 "만든 후의 플랫폼"으로 범위를 한정했으나, 이는 생태계 비전과 충돌함.
+- **대안**: 기존 ADR-009 유지 (배급/발견만 집중)
+- **근거**: 사용자 인터뷰 — "영화를 본 사람들은 또 영화를 만들 사람일 확률이 높음. 서비스는 투 사이드 앱. 프로모드랑 인조이 모드로 나뉨."
+- **소스**: Phase 3 사용자 인터뷰 (2026-03-14)
+- **관련 문서**: [→ see docs/01-product-definition.md], [→ see docs/infrastructure/00-index.md]
 
 ---
 

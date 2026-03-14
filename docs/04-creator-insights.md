@@ -1,6 +1,6 @@
 ---
 status: draft
-last_updated: 2026-03-13
+last_updated: 2026-03-14
 source: .sisyphus/drafts/cinema-on-air-research.md §17, §20, §23
 ---
 
@@ -99,5 +99,5 @@ source: .sisyphus/drafts/cinema-on-air-research.md §17, §20, §23
 - 서비스의 전체 제품 정의 및 포지셔닝 (→ see docs/01-product-definition.md)
 
 ### 결정 마커
-- [DECIDED] 플랫폼은 '만든 후의 배급/발견'에 집중하며, 제작 도구(캐스팅, 장소 DB)는 범위에서 제외한다.
+- [SUPERSEDED] 플랫폼은 '만든 후의 배급/발견'에 집중하며, 제작 도구(캐스팅, 장소 DB)는 범위에서 제외한다. → ADR-013(Pro Mode/Enjoy Mode Two-sided App)으로 대체. (→ see docs/08-decision-log.md ADR-013)
 - [DECIDED] 게이트키퍼 없는 '셀프 업로드'와 '관객 지표 기반 발굴'을 핵심 메커니즘으로 채택한다.
