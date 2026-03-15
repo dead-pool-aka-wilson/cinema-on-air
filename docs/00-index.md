@@ -1,6 +1,6 @@
 ---
 status: draft
-last_updated: 2026-03-14
+last_updated: 2026-03-15
 source: 전체 docs/ 문서 종합
 ---
 
@@ -24,6 +24,8 @@ source: 전체 docs/ 문서 종합
 | [06-validation-plan.md](./06-validation-plan.md) | 가설 검증 계획 | 개발 전 검증 가능한 핵심 가설 목록 및 테스트 방법론 | draft |
 | [07-technical-preliminary.md](./07-technical-preliminary.md) | 기술 예비 조사 | 기술 스택 선택 근거, 비디오 호스팅 옵션, 인프라 비용 추정 | draft |
 | [08-decision-log.md](./08-decision-log.md) | 결정 기록부 (ADR) | 모든 아키텍처·비즈니스 결정을 ADR 형식으로 기록 | draft |
+| [09-viral-strategy.md](./09-viral-strategy.md) | 바이럴 확산 전략 리서치 | 하꼬 영화 유튜버 협업 전략, 비용 분석, 단계별 확산 방안 | draft |
+| [10-indiground-analysis.md](./10-indiground-analysis.md) | 인디그라운드 분석 | 인디그라운드 경쟁/파트너 양면 분석, Cinema on Air 비교 | draft |
 | [infrastructure/00-index.md](./infrastructure/00-index.md) | 인프라 마스터 인덱스 | Pro Mode 생태계 구성 7개 카테고리(장비, 장소, 인력, 후반, 교육, 자금, 법적) 종합 | draft |
 
 ---
@@ -42,6 +44,8 @@ source: 전체 docs/ 문서 종합
 | 06-validation-plan.md | 6 | 0 | 0 |
 | 07-technical-preliminary.md | 8 | 0 | 0 |
 | 08-decision-log.md | 13 | 5 | 0 |
+| 09-viral-strategy.md | 0 | 0 | 0 |
+| 10-indiground-analysis.md | 0 | 0 | 0 |
 | infrastructure/01-equipment-rental.md | 0 | 0 | 0 |
 | infrastructure/02-filming-locations.md | 0 | 0 | 0 |
 | infrastructure/03-crew-casting.md | 0 | 0 | 0 |
@@ -49,7 +53,7 @@ source: 전체 docs/ 문서 종합
 | infrastructure/05-education-workshop.md | 0 | 0 | 0 |
 | infrastructure/06-funding.md | 0 | 0 | 0 |
 | infrastructure/07-legal-admin.md | 0 | 0 | 0 |
-| **합계** | **45** | **5** | **0** |
+| **합계** | **45** | **5** | **0** | **10 문서** |
 
 ### 핵심 결정 사항 Top 5
 
@@ -111,4 +115,4 @@ source: 전체 docs/ 문서 종합
 ## 이 문서에 포함되지 않는 내용
 - 각 문서의 상세 내용 (→ 해당 문서 직접 참조)
 - 개발 코드 및 기술 구현 명세
-- 마케팅 및 홍보 계획
+- 마케팅 및 홍보 실행 계획
