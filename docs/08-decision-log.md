@@ -1,6 +1,6 @@
 ---
 status: draft
-last_updated: 2026-03-14
+last_updated: 2026-03-15
 source: .sisyphus/drafts/cinema-on-air-research.md §16, §18, §22 + 대화 기반
 ---
 
@@ -9,7 +9,7 @@ source: .sisyphus/drafts/cinema-on-air-research.md §16, §18, §22 + 대화 기
 이 문서는 Cinema on Air 프로젝트의 주요 아키텍처 및 비즈니스 결정을 기록합니다. 각 결정은 ADR(Architecture Decision Record) 형식을 따릅니다.
 
 ## 결정 요약
-- **DECIDED**: 13개
+- **DECIDED**: 14개
 - **OPEN**: 5개
 
 ---
@@ -131,6 +131,15 @@ source: .sisyphus/drafts/cinema-on-air-research.md §16, §18, §22 + 대화 기
 - **근거**: 사용자 인터뷰 — "영화를 본 사람들은 또 영화를 만들 사람일 확률이 높음. 서비스는 투 사이드 앱. 프로모드랑 인조이 모드로 나뉨."
 - **소스**: Phase 3 사용자 인터뷰 (2026-03-14)
 - **관련 문서**: [→ see docs/01-product-definition.md], [→ see docs/infrastructure/00-index.md]
+
+### ADR-014: 인디그라운드(Indieground) 전략적 포지셔닝
+- **상태**: [DECIDED]
+- **결정**: 인디그라운드를 경쟁자가 아닌 잠재적 파트너로 포지셔닝하며, 보완적 역할 분담(B2B 배급매칭 vs B2C 직접 관객)을 지향한다.
+- **컨텍스트**: 인디그라운드는 영진위 산하 공공기관으로 독립영화 유통배급을 지원하지만, 영구 아카이빙, 크리에이터 수익화, 소셜 레이어, 모바일 앱 등은 제공하지 않는다.
+- **대안**: 인디그라운드를 순수 경쟁자로 간주하고 차별화에만 집중.
+- **근거**: 인디그라운드=B2B(감독→배급사→극장), Cinema on Air=B2C(감독→관객 직접)로 사업 모델이 상이하며, Wavve+인디그라운드 협업(2022) 선례가 파트너십 가능성을 입증.
+- **소스**: Phase 4 에이전트 리서치 (2026-03-15)
+- **관련 문서**: [→ see docs/10-indiground-analysis.md], [→ see docs/02-market-research.md]
 
 ---
 

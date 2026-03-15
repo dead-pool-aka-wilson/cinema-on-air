@@ -1,6 +1,6 @@
 ---
 status: draft
-last_updated: 2026-03-13
+last_updated: 2026-03-15
 source: .sisyphus/drafts/cinema-on-air-research.md §1-§7, §9, §10, §13, §14
 ---
 
@@ -79,6 +79,8 @@ source: .sisyphus/drafts/cinema-on-air-research.md §1-§7, §9, §10, §13, §1
 6. **수익 모델 부재**: 크리에이터에게 수익을 환원하는 구조가 없음.
 7. **글로벌 확장성 부족**: 한국어 전용 서비스로 글로벌 관객 접근 차단.
 8. **모바일 경험 최적화 미흡**: 전용 앱 부재로 인한 접근성 저하.
+
+→ see docs/10-indiground-analysis.md
 
 ## 3. 범용 플랫폼 및 영화제 제출 플랫폼
 
