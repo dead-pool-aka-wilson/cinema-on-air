@@ -1,0 +1,21 @@
+## QA Evidence: docs/09-viral-strategy.md — [UNVERIFIED] Ratio
+Date: 2026-03-15
+
+### [UNVERIFIED] Marker Count: 9 occurrences
+
+Distinct unverified claims (6):
+1. 마이크로 인플루언서 ROI 578% (피처링 2024)
+2. 나노(1K~5K) 협업비 0~30만원
+3. 마이크로(5K~20K) 협업비 50~100만원
+4. 스몰(20K~50K) 협업비 100~300만원
+5. MCN 소속 채널 4.7배 비용 프리미엄
+6. 레퍼럴 수익 쉐어 30~50% (업계 표준)
+
+Some markers appear in both the body text and the cost/source tables = 9 total occurrences.
+
+### Total Substantive Claims: ~50
+Estimated from: 6 category descriptions, 3 tier breakdowns, 5 collaboration models,
+cost matrix (15 cells), 3-phase strategy (12 activities), 3 anti-patterns, competitive
+analysis table (12 cells), multiple cross-references, positioning statements.
+
+### Unverified Ratio: 6/50 = 12% — PASS (< 20% threshold)

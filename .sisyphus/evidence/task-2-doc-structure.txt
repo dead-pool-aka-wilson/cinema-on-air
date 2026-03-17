@@ -1,0 +1,19 @@
+Evidence: docs/10-indiground-analysis.md Document Structure
+Generated: 2026-03-15
+
+Required sections (10 minimum):
+1. ✅ ## 개요 — line 8
+2. ✅ ## 9개 핵심 사업 영역 — line 23
+3. ✅ ## 핵심 서비스 심층 분석 — line 37
+4. ✅ ## 기술 및 UX 현황 — line 73
+5. ✅ ## Cinema on Air와의 비교 분석 — line 87
+6. ✅ ## 전략적 포지셔닝 — line 117
+7. ✅ ## 파트너십 가능성 분석 — line 143
+8. ✅ ## 전략적 시사점 — line 184
+9. ✅ ## 출처 및 참고 링크 — line 208
+10. ✅ ## 이 문서에 포함되지 않는 내용 — line 220
+
+All sections in Korean: ✅
+Metadata header present: ✅
+Ends with [DECIDED] tag: ✅
+Total sections: 10 (meets minimum)

@@ -1,0 +1,17 @@
+Evidence: 9개 핵심 사업 영역 Consistency Check
+Generated: 2026-03-15
+
+docs/02-market-research.md (lines 56-65) vs docs/10-indiground-analysis.md:
+
+1. 독립영화 라이브러리 — ✅ MATCH (장편 23, 단편 69, 총 92편)
+2. 온라인 상영관 — ✅ MATCH (2주 단위 큐레이션)
+3. 배급아카데미 — ✅ MATCH (7기 운영 중)
+4. 1:1 배급상담소 — ✅ MATCH (전문가 매칭)
+5. 공동체상영 지원 — ✅ MATCH (지역/교육 커뮤니티)
+6. 청소년 추천 독립영화 — ✅ MATCH (교육용 큐레이션)
+7. 독립예술영화 DB — ✅ MATCH (통합 데이터베이스)
+8. 비즈매칭 — ✅ MATCH (제작자-배급사 네트워크)
+9. 인디토크 — ✅ MATCH (리뷰, 인터뷰, 영화제 소식)
+
+Result: ALL 9 services match exactly. Count = 9 (not 6).
+Order preserved from source document.

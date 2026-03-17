@@ -1,0 +1,8 @@
+## QA Evidence: docs/09-viral-strategy.md — Line Count
+Date: 2026-03-15
+
+$ wc -l docs/09-viral-strategy.md
+264 docs/09-viral-strategy.md
+
+Target range: 250~350 lines
+Actual: 264 lines — PASS

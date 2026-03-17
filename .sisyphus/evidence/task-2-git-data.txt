@@ -1,0 +1,2 @@
+| `b381823` | docs(#1): establish planning documentation foundation [MERGE] |
+- **Merge commit**: `b381823`

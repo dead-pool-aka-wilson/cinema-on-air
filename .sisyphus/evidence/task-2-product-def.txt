@@ -1,0 +1,18 @@
+     108 docs/01-product-definition.md
+## 1. 한 줄 정의
+## 2. 문제 정의 (Problem Definition)
+### 2.1. 감독 (Director)
+### 2.2. 관객 (Audience)
+### 2.3. 업계 (Industry)
+### 2.4. 배급사 (Distributor)
+## 3. 해결책 (Solution: 핵심 메커니즘)
+## 4. 타겟 사용자 (Target Segments)
+## 5. 핵심 가치 제안 (Value Proposition)
+## 6. 핵심 원칙 (Core Principles)
+## 7. MVP 기능 목록 (MVP Features)
+## 8. 스코프 경계 (Scope Boundaries)
+## 9. 성공 지표 (Success Metrics)
+## 10. 플랫폼 인트로(Ident) 전략
+## 11. 이 문서에 포함되지 않는 내용
+## 12. 주요 결정 및 미결 사항
+5

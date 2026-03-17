@@ -1,0 +1,18 @@
+## QA Evidence: docs/09-viral-strategy.md — Cross-reference Validity
+Date: 2026-03-15
+
+### Cross-references in document:
+1. → see docs/01-product-definition.md — 플랫폼 포지셔닝 참조
+2. → see docs/08-decision-log.md — ADR-006 (웹 우선) 참조
+3. → see docs/06-validation-plan.md — H2 검증 채널 참조
+4. → see docs/infrastructure/00-index.md — Pro Mode 생태계 참조
+5. → see docs/02-market-research.md — 경쟁 플랫폼 분석 참조
+
+### File Existence Check:
+- docs/01-product-definition.md: EXISTS ✅
+- docs/08-decision-log.md: EXISTS ✅
+- docs/06-validation-plan.md: EXISTS ✅
+- docs/infrastructure/00-index.md: EXISTS ✅
+- docs/02-market-research.md: EXISTS ✅
+
+All cross-references point to existing files: PASS

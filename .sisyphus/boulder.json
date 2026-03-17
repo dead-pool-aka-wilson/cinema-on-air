@@ -1,12 +1,12 @@
 {
-  "active_plan": "/Users/deok/Dev/cinema-on-air/.sisyphus/plans/infrastructure-research.md",
-  "started_at": "2026-03-14T08:06:30.728Z",
+  "active_plan": "/Users/deok/Dev/cinema-on-air/.sisyphus/plans/completion-reports.md",
+  "started_at": "2026-03-16T07:51:11.389Z",
   "session_ids": [
     "ses_31946f544ffeQUUrAWWMaP4ADY"
   ],
-  "plan_name": "infrastructure-research",
+  "plan_name": "completion-reports",
   "agent": "atlas",
   "worktree_path": "/Users/deok/Dev/cinema-on-air",
-  "branch": "5-research-korean-indie-short-film-infrastructure-map-+-pro-mode-ecosystem",
-  "issue": 5
+  "issue": null,
+  "branch": "main"
 }

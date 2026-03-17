@@ -1,0 +1,17 @@
+GitHub Issue Created - Task 0
+==============================
+
+Issue #7: docs: Phase 4 viral strategy + Indiground analysis + funding update
+Status: OPEN
+Created: 2026-03-15T09:03:50Z
+
+Deliverables:
+- docs/09-viral-strategy.md — 하꼬 영화 유튜버 바이럴 확산 전략 리서치 (신규)
+- docs/10-indiground-analysis.md — 인디그라운드 경쟁/파트너 양면 분석 (신규)
+- docs/infrastructure/06-funding.md — 제작지원사업 데이터 보강 (업데이트)
+- docs/00-index.md — 09/10 문서 행 추가, 마커 카운트, 배제 조항 수정
+- docs/02-market-research.md — 인디그라운드 교차참조 추가
+- docs/infrastructure/00-index.md — 06-funding.md 줄 수 업데이트
+- docs/08-decision-log.md — ADR-014 인디그라운드 포지셔닝 추가
+
+URL: https://github.com/dead-pool-aka-wilson/cinema-on-air/issues/7

@@ -1,0 +1,36 @@
+## QA Evidence: docs/09-viral-strategy.md — Document Structure
+Date: 2026-03-15
+
+### Metadata Header: PASS
+- status: draft ✅
+- last_updated: 2026-03-15 ✅
+- source: 웹 리서치 + .sisyphus/drafts/viral-strategy.md + Phase 4 에이전트 리서치 ✅
+
+### Section Headers (all Korean): PASS
+1. ## 개요 ✅
+2. ## 한국 영화 유튜버 생태계 분석 ✅
+3. ## 타겟 유튜버 선별 기준 ✅
+4. ## 협업 모델 ✅
+5. ## 협업 비용 테이블 ✅
+6. ## 단계별 확산 전략 ✅
+7. ## 피해야 할 패턴 ✅
+8. ## 핵심 전략 자산: 감독 인터뷰 접근권 ✅
+9. ## Pro Mode 연동 시사점 ✅
+10. ## 출처 및 참고 링크 ✅
+11. ## 이 문서에 포함되지 않는 내용 ✅
+
+### Required Content Elements: PASS
+- 6 Korean film YouTuber subcategories (table): ✅
+- 3-tier subscriber breakdown (나노/마이크로/스몰): ✅
+- 5 collaboration models (A~E): ✅
+- "감독 인터뷰 접근권" emphasized as unique asset: ✅
+- 3-phase timing strategy (사전 홍보/런칭/성장): ✅
+- Cost table (matrix format): ✅
+- Anti-patterns section: ✅
+
+### Cross-references: PASS
+- → see docs/01-product-definition.md ✅
+- → see docs/02-market-research.md ✅
+- → see docs/08-decision-log.md ✅
+- → see docs/infrastructure/00-index.md ✅
+- → see docs/06-validation-plan.md ✅

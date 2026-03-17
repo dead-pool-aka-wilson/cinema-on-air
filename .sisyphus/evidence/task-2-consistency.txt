@@ -1,0 +1,27 @@
+Evidence: Consistency with docs/02-market-research.md lines 52-81
+Generated: 2026-03-15
+
+Checked for contradictions between docs/10-indiground-analysis.md and docs/02-market-research.md:
+
+1. Service count: 9 in both ✅
+2. Library size: 92편 (23 장편 + 69 단편) in both ✅
+3. 온라인 상영관: 2주 단위 큐레이션 in both ✅
+4. 배급아카데미: 7기 운영 중 in both ✅
+5. 기술 스택: jQuery 레거시 in both ✅
+6. 팝업 UX: mentioned in both ✅
+7. 네이티브 앱 부재: stated in both ✅
+
+8 limitations (lines 73-81) all referenced in comparison table:
+1. 공공기관 경직성 ✅
+2. 콘텐츠 규모 제한 (92편) ✅
+3. 상시 접근성 부재 ✅
+4. 크리에이터 도구 결여 ✅
+5. 소셜/커뮤니티 부재 ✅
+6. 수익 모델 부재 ✅
+7. 글로벌 확장성 부족 ✅
+8. 모바일 경험 미흡 ✅
+
+Dual perspective (경쟁+파트너): ✅
+B2B vs B2C positioning: ✅
+
+Result: NO contradictions found.
